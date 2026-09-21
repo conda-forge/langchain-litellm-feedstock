@@ -5,7 +5,6 @@ context:
   version: "0.7.2"
   # litellm's fastuuid dependency has no py3.10 osx-64 build; keep in sync
   # with upstream's ">=3.10" once that's resolved.
-  python_min: "3.11"
 
 package:
   name: langchain-litellm
